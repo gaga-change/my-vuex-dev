@@ -3,8 +3,11 @@ import Vue from 'vue'
 import Counter from './Counter.vue'
 import store from './store'
 
+
+// console.log(store);
+
 new Vue({
-  el: '#app',
-  store,
-  render: h => h(Counter)
-})
+    el: "#app",
+    store,
+    render: h => h(Counter)
+});
